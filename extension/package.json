@@ -1,6 +1,6 @@
 {
   "name": "quasar-app-extension-swipe-notifications",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This extension enables swipe to close $q.notify notifications",
   "author": "xLinley",
   "license": "MIT",
