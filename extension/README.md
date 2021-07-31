@@ -36,7 +36,10 @@ You can find the full list of available properties here: https://v1.quasar.dev/q
 The swipe direction is based on the notification position, in particular:
 
 * Top notifications (top-left / top / top-right): swipe up
-* Middle notifications (left / center / right): both swipe up and swipe down
+* Middle notifications (left / right): both swipe up and swipe down // center: swipe up
 * Bottom notifications (bottom-left / bottom / bottom-right): swipe down
 
 This is due to how Quasar manages the fade out transition, it gets kind of complicated to manage and edit it; more options might get added in future
+
+# Demo
+![](demo_crop.gif)
