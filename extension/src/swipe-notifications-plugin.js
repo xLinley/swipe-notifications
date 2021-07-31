@@ -13,6 +13,9 @@ export default {
       }
       notificationParameters.attrs.id = notificationId;
       // If no position is specified then manually add it
+      if (!notificationParameters.position) {
+        notificationParameters.position = "bottom";
+      }
       let notification = Notify.create(notificationParameters);
       // Delay because the notification doesn't get created immediately
       setTimeout(() => {
