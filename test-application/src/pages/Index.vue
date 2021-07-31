@@ -10,55 +10,55 @@ import Vue from "vue";
 export default {
   name: "PageIndex",
   mounted() {
-    Vue.createSwipableNotification({
+    Vue.createSwipeableNotification({
       type: "positive",
       message: "Notifica. Messaggio di prova",
       timeout: 0,
       position: "top-left"
     });
-    Vue.createSwipableNotification({
+    Vue.createSwipeableNotification({
       type: "positive",
       message: "Notifica. Messaggio di prova",
       timeout: 0,
       position: "top"
     });
-    Vue.createSwipableNotification({
+    Vue.createSwipeableNotification({
       type: "positive",
       message: "Notifica. Messaggio di prova",
       timeout: 0,
       position: "top-right"
     });
-    Vue.createSwipableNotification({
+    Vue.createSwipeableNotification({
       type: "positive",
       message: "Notifica. Messaggio di prova",
       timeout: 0,
       position: "left"
     });
-    Vue.createSwipableNotification({
+    Vue.createSwipeableNotification({
       type: "positive",
       message: "Notifica. Messaggio di prova",
       timeout: 0,
       position: "center"
     });
-    Vue.createSwipableNotification({
+    Vue.createSwipeableNotification({
       type: "positive",
       message: "Notifica. Messaggio di prova",
       timeout: 0,
       position: "right"
     });
-    Vue.createSwipableNotification({
+    Vue.createSwipeableNotification({
       type: "positive",
       message: "Notifica. Messaggio di prova",
       timeout: 0,
       position: "bottom-left"
     });
-    Vue.createSwipableNotification({
+    Vue.createSwipeableNotification({
       type: "positive",
       message: "Notifica. Messaggio di prova",
       timeout: 0,
       position: "bottom"
     });
-    Vue.createSwipableNotification({
+    Vue.createSwipeableNotification({
       type: "positive",
       message: "Notifica. Messaggio di prova",
       timeout: 0,

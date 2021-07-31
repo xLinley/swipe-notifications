@@ -4,7 +4,7 @@ import Hammer from "hammerjs";
 export default {
   // called by Vue.use(SwipeNotificationsPlugin)
   install(Vue, options) {
-    Vue.createSwipableNotification = function (notificationParameters) {
+    Vue.createSwipeableNotification = function (notificationParameters) {
       // Create random id so that we know which one we have to apply hammer to
       const notificationId = "q-notif-" + Math.floor(Math.random() * 100000).toString();
       // If no attrs property was supplied, initialize it
