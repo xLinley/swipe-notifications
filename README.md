@@ -40,3 +40,6 @@ The swipe direction is based on the notification position, in particular:
 * Bottom notifications (bottom-left / bottom / bottom-right): swipe down
 
 This is due to how Quasar manages the fade out transition, it gets kind of complicated to manage and edit it; more options might get added in future
+
+# Demo
+![](demo.gif)
