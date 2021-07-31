@@ -10,23 +10,23 @@ This extension adds swipe capabilities to notifications created by using $q.noti
 Add the extension through the Quasar CLI, once done you can use the extension simply by calling
 
 ```js
-	import Vue from "vue";
+import Vue from "vue";
+
+Vue.createSwipeableNotification({
 	...
-    Vue.createSwipeableNotification({
-        ...
-    });
+});
 ```
 
 Keep in mind that <b>you must pass an object</b> containing the properties you want the $q.notify method to use, for example:
 
 ```js
-	import Vue from "vue";
-	...
-    Vue.createSwipeableNotification({
-        type: "positive",
-        message: "Test notification",
-        position: "top-left"
-    });
+import Vue from "vue";
+
+Vue.createSwipeableNotification({
+	type: "positive",
+	message: "Test notification",
+	position: "top-left"
+});
 ```
 
 You can find the full list of available properties here: https://v1.quasar.dev/quasar-plugins/notify#notify-api
