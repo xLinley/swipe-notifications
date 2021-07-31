@@ -30,9 +30,14 @@ export default {
             });
             break;
           case "left":
-          case "center":
           case "right":
             swipeManager.on("swipeup swipedown", (ev) => {
+              // Close the notification
+              notification();
+            });
+            break;
+          case "center":
+            swipeManager.on("swipeup", (ev) => {
               // Close the notification
               notification();
             });
